@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D2B27121E5C5EC9007E26FF /* Lantinghei_0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D2B270F1E5C5EC9007E26FF /* Lantinghei_0.ttf */; };
+		1D2B27131E5C5EC9007E26FF /* Lantinghei_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D2B27101E5C5EC9007E26FF /* Lantinghei_1.ttf */; };
+		1D2B27141E5C5EC9007E26FF /* Lantinghei_2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D2B27111E5C5EC9007E26FF /* Lantinghei_2.ttf */; };
 		1D584F831E5C47D600EAFDF3 /* WBPopMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D584F781E5C47D600EAFDF3 /* WBPopMenuModel.m */; };
 		1D584F841E5C47D600EAFDF3 /* WBPopMenuSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D584F7A1E5C47D600EAFDF3 /* WBPopMenuSingleton.m */; };
 		1D584F851E5C47D600EAFDF3 /* WBPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D584F7C1E5C47D600EAFDF3 /* WBPopMenuView.m */; };
@@ -49,6 +52,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D2B270F1E5C5EC9007E26FF /* Lantinghei_0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lantinghei_0.ttf; sourceTree = "<group>"; };
+		1D2B27101E5C5EC9007E26FF /* Lantinghei_1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lantinghei_1.ttf; sourceTree = "<group>"; };
+		1D2B27111E5C5EC9007E26FF /* Lantinghei_2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lantinghei_2.ttf; sourceTree = "<group>"; };
 		1D584F771E5C47D600EAFDF3 /* WBPopMenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBPopMenuModel.h; sourceTree = "<group>"; };
 		1D584F781E5C47D600EAFDF3 /* WBPopMenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBPopMenuModel.m; sourceTree = "<group>"; };
 		1D584F791E5C47D600EAFDF3 /* WBPopMenuSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBPopMenuSingleton.h; sourceTree = "<group>"; };
@@ -131,6 +137,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		1D2B270E1E5C5EC9007E26FF /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1D2B270F1E5C5EC9007E26FF /* Lantinghei_0.ttf */,
+				1D2B27101E5C5EC9007E26FF /* Lantinghei_1.ttf */,
+				1D2B27111E5C5EC9007E26FF /* Lantinghei_2.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		1D584F761E5C47D600EAFDF3 /* PopMenuView */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +191,7 @@
 		1DD8176C1E5C44C200C46B73 /* MagneticSearch */ = {
 			isa = PBXGroup;
 			children = (
+				1D2B270E1E5C5EC9007E26FF /* Font */,
 				1DD817701E5C44C200C46B73 /* AppDelegate.h */,
 				1DD817711E5C44C200C46B73 /* AppDelegate.m */,
 				1DD817731E5C44C200C46B73 /* ViewController.h */,
@@ -349,10 +366,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D2B27141E5C5EC9007E26FF /* Lantinghei_2.ttf in Resources */,
 				1DD8177D1E5C44C200C46B73 /* LaunchScreen.storyboard in Resources */,
 				1D584FA11E5C5A1900EAFDF3 /* Images.xcassets in Resources */,
 				1D584F9C1E5C54AA00EAFDF3 /* rule.json in Resources */,
+				1D2B27131E5C5EC9007E26FF /* Lantinghei_1.ttf in Resources */,
 				1DD8177A1E5C44C200C46B73 /* Assets.xcassets in Resources */,
+				1D2B27121E5C5EC9007E26FF /* Lantinghei_0.ttf in Resources */,
 				1DD817781E5C44C200C46B73 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
