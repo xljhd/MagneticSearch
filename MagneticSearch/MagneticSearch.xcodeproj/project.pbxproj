@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DD8176F1E5C44C200C46B73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8176E1E5C44C200C46B73 /* main.m */; };
+		1DD817721E5C44C200C46B73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD817711E5C44C200C46B73 /* AppDelegate.m */; };
+		1DD817751E5C44C200C46B73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD817741E5C44C200C46B73 /* ViewController.m */; };
+		1DD817781E5C44C200C46B73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD817761E5C44C200C46B73 /* Main.storyboard */; };
+		1DD8177A1E5C44C200C46B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD817791E5C44C200C46B73 /* Assets.xcassets */; };
+		1DD8177D1E5C44C200C46B73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD8177B1E5C44C200C46B73 /* LaunchScreen.storyboard */; };
+		1DD817881E5C44C200C46B73 /* MagneticSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD817871E5C44C200C46B73 /* MagneticSearchTests.m */; };
+		1DD817931E5C44C200C46B73 /* MagneticSearchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD817921E5C44C200C46B73 /* MagneticSearchUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DD817841E5C44C200C46B73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DD817621E5C44C200C46B73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DD817691E5C44C200C46B73;
+			remoteInfo = MagneticSearch;
+		};
+		1DD8178F1E5C44C200C46B73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DD817621E5C44C200C46B73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DD817691E5C44C200C46B73;
+			remoteInfo = MagneticSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DD8176A1E5C44C200C46B73 /* MagneticSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagneticSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD8176E1E5C44C200C46B73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DD817701E5C44C200C46B73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1DD817711E5C44C200C46B73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1DD817731E5C44C200C46B73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1DD817741E5C44C200C46B73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1DD817771E5C44C200C46B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DD817791E5C44C200C46B73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DD8177C1E5C44C200C46B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DD8177E1E5C44C200C46B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DD817831E5C44C200C46B73 /* MagneticSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagneticSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD817871E5C44C200C46B73 /* MagneticSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagneticSearchTests.m; sourceTree = "<group>"; };
+		1DD817891E5C44C200C46B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DD8178E1E5C44C200C46B73 /* MagneticSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagneticSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD817921E5C44C200C46B73 /* MagneticSearchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagneticSearchUITests.m; sourceTree = "<group>"; };
+		1DD817941E5C44C200C46B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DD817671E5C44C200C46B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD817801E5C44C200C46B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD8178B1E5C44C200C46B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DD817611E5C44C200C46B73 = {
+			isa = PBXGroup;
+			children = (
+				1DD8176C1E5C44C200C46B73 /* MagneticSearch */,
+				1DD817861E5C44C200C46B73 /* MagneticSearchTests */,
+				1DD817911E5C44C200C46B73 /* MagneticSearchUITests */,
+				1DD8176B1E5C44C200C46B73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DD8176B1E5C44C200C46B73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DD8176A1E5C44C200C46B73 /* MagneticSearch.app */,
+				1DD817831E5C44C200C46B73 /* MagneticSearchTests.xctest */,
+				1DD8178E1E5C44C200C46B73 /* MagneticSearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DD8176C1E5C44C200C46B73 /* MagneticSearch */ = {
+			isa = PBXGroup;
+			children = (
+				1DD817701E5C44C200C46B73 /* AppDelegate.h */,
+				1DD817711E5C44C200C46B73 /* AppDelegate.m */,
+				1DD817731E5C44C200C46B73 /* ViewController.h */,
+				1DD817741E5C44C200C46B73 /* ViewController.m */,
+				1DD817761E5C44C200C46B73 /* Main.storyboard */,
+				1DD817791E5C44C200C46B73 /* Assets.xcassets */,
+				1DD8177B1E5C44C200C46B73 /* LaunchScreen.storyboard */,
+				1DD8177E1E5C44C200C46B73 /* Info.plist */,
+				1DD8176D1E5C44C200C46B73 /* Supporting Files */,
+			);
+			path = MagneticSearch;
+			sourceTree = "<group>";
+		};
+		1DD8176D1E5C44C200C46B73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DD8176E1E5C44C200C46B73 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DD817861E5C44C200C46B73 /* MagneticSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DD817871E5C44C200C46B73 /* MagneticSearchTests.m */,
+				1DD817891E5C44C200C46B73 /* Info.plist */,
+			);
+			path = MagneticSearchTests;
+			sourceTree = "<group>";
+		};
+		1DD817911E5C44C200C46B73 /* MagneticSearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DD817921E5C44C200C46B73 /* MagneticSearchUITests.m */,
+				1DD817941E5C44C200C46B73 /* Info.plist */,
+			);
+			path = MagneticSearchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DD817691E5C44C200C46B73 /* MagneticSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD817971E5C44C200C46B73 /* Build configuration list for PBXNativeTarget "MagneticSearch" */;
+			buildPhases = (
+				1DD817661E5C44C200C46B73 /* Sources */,
+				1DD817671E5C44C200C46B73 /* Frameworks */,
+				1DD817681E5C44C200C46B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagneticSearch;
+			productName = MagneticSearch;
+			productReference = 1DD8176A1E5C44C200C46B73 /* MagneticSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DD817821E5C44C200C46B73 /* MagneticSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD8179A1E5C44C200C46B73 /* Build configuration list for PBXNativeTarget "MagneticSearchTests" */;
+			buildPhases = (
+				1DD8177F1E5C44C200C46B73 /* Sources */,
+				1DD817801E5C44C200C46B73 /* Frameworks */,
+				1DD817811E5C44C200C46B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DD817851E5C44C200C46B73 /* PBXTargetDependency */,
+			);
+			name = MagneticSearchTests;
+			productName = MagneticSearchTests;
+			productReference = 1DD817831E5C44C200C46B73 /* MagneticSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DD8178D1E5C44C200C46B73 /* MagneticSearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD8179D1E5C44C200C46B73 /* Build configuration list for PBXNativeTarget "MagneticSearchUITests" */;
+			buildPhases = (
+				1DD8178A1E5C44C200C46B73 /* Sources */,
+				1DD8178B1E5C44C200C46B73 /* Frameworks */,
+				1DD8178C1E5C44C200C46B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DD817901E5C44C200C46B73 /* PBXTargetDependency */,
+			);
+			name = MagneticSearchUITests;
+			productName = MagneticSearchUITests;
+			productReference = 1DD8178E1E5C44C200C46B73 /* MagneticSearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DD817621E5C44C200C46B73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = xiaxia;
+				TargetAttributes = {
+					1DD817691E5C44C200C46B73 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8B6Z895XST;
+						ProvisioningStyle = Automatic;
+					};
+					1DD817821E5C44C200C46B73 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8B6Z895XST;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1DD817691E5C44C200C46B73;
+					};
+					1DD8178D1E5C44C200C46B73 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8B6Z895XST;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1DD817691E5C44C200C46B73;
+					};
+				};
+			};
+			buildConfigurationList = 1DD817651E5C44C200C46B73 /* Build configuration list for PBXProject "MagneticSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DD817611E5C44C200C46B73;
+			productRefGroup = 1DD8176B1E5C44C200C46B73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DD817691E5C44C200C46B73 /* MagneticSearch */,
+				1DD817821E5C44C200C46B73 /* MagneticSearchTests */,
+				1DD8178D1E5C44C200C46B73 /* MagneticSearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DD817681E5C44C200C46B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD8177D1E5C44C200C46B73 /* LaunchScreen.storyboard in Resources */,
+				1DD8177A1E5C44C200C46B73 /* Assets.xcassets in Resources */,
+				1DD817781E5C44C200C46B73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD817811E5C44C200C46B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD8178C1E5C44C200C46B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DD817661E5C44C200C46B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD817751E5C44C200C46B73 /* ViewController.m in Sources */,
+				1DD817721E5C44C200C46B73 /* AppDelegate.m in Sources */,
+				1DD8176F1E5C44C200C46B73 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD8177F1E5C44C200C46B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD817881E5C44C200C46B73 /* MagneticSearchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD8178A1E5C44C200C46B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD817931E5C44C200C46B73 /* MagneticSearchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DD817851E5C44C200C46B73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DD817691E5C44C200C46B73 /* MagneticSearch */;
+			targetProxy = 1DD817841E5C44C200C46B73 /* PBXContainerItemProxy */;
+		};
+		1DD817901E5C44C200C46B73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DD817691E5C44C200C46B73 /* MagneticSearch */;
+			targetProxy = 1DD8178F1E5C44C200C46B73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DD817761E5C44C200C46B73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DD817771E5C44C200C46B73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DD8177B1E5C44C200C46B73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DD8177C1E5C44C200C46B73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DD817951E5C44C200C46B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DD817961E5C44C200C46B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DD817981E5C44C200C46B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8B6Z895XST;
+				INFOPLIST_FILE = MagneticSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaxia.MagneticSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1DD817991E5C44C200C46B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8B6Z895XST;
+				INFOPLIST_FILE = MagneticSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaxia.MagneticSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1DD8179B1E5C44C200C46B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8B6Z895XST;
+				INFOPLIST_FILE = MagneticSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaxia.MagneticSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagneticSearch.app/MagneticSearch";
+			};
+			name = Debug;
+		};
+		1DD8179C1E5C44C200C46B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8B6Z895XST;
+				INFOPLIST_FILE = MagneticSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaxia.MagneticSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagneticSearch.app/MagneticSearch";
+			};
+			name = Release;
+		};
+		1DD8179E1E5C44C200C46B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8B6Z895XST;
+				INFOPLIST_FILE = MagneticSearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaxia.MagneticSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MagneticSearch;
+			};
+			name = Debug;
+		};
+		1DD8179F1E5C44C200C46B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8B6Z895XST;
+				INFOPLIST_FILE = MagneticSearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaxia.MagneticSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MagneticSearch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DD817651E5C44C200C46B73 /* Build configuration list for PBXProject "MagneticSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD817951E5C44C200C46B73 /* Debug */,
+				1DD817961E5C44C200C46B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DD817971E5C44C200C46B73 /* Build configuration list for PBXNativeTarget "MagneticSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD817981E5C44C200C46B73 /* Debug */,
+				1DD817991E5C44C200C46B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1DD8179A1E5C44C200C46B73 /* Build configuration list for PBXNativeTarget "MagneticSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD8179B1E5C44C200C46B73 /* Debug */,
+				1DD8179C1E5C44C200C46B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1DD8179D1E5C44C200C46B73 /* Build configuration list for PBXNativeTarget "MagneticSearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD8179E1E5C44C200C46B73 /* Debug */,
+				1DD8179F1E5C44C200C46B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DD817621E5C44C200C46B73 /* Project object */;
+}
