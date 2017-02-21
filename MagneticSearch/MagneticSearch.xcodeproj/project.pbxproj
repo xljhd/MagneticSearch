@@ -13,6 +13,12 @@
 		1D584F861E5C47D600EAFDF3 /* WBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D584F7E1E5C47D600EAFDF3 /* WBTableViewCell.m */; };
 		1D584F871E5C47D600EAFDF3 /* WBTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D584F801E5C47D600EAFDF3 /* WBTableViewDataSource.m */; };
 		1D584F881E5C47D600EAFDF3 /* WBTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D584F821E5C47D600EAFDF3 /* WBTableViewDelegate.m */; };
+		1D584F8B1E5C488400EAFDF3 /* MagnetsCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D584F8A1E5C488400EAFDF3 /* MagnetsCellTableViewCell.m */; };
+		1D584F8E1E5C48BB00EAFDF3 /* movieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D584F8D1E5C48BB00EAFDF3 /* movieModel.m */; };
+		1D584F911E5C48D600EAFDF3 /* sideModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D584F901E5C48D600EAFDF3 /* sideModel.m */; };
+		1D584F9A1E5C543400EAFDF3 /* breakDownHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D584F991E5C543400EAFDF3 /* breakDownHtml.m */; };
+		1D584F9C1E5C54AA00EAFDF3 /* rule.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D584F9B1E5C54AA00EAFDF3 /* rule.json */; };
+		1D584F9F1E5C560F00EAFDF3 /* RemindCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D584F9E1E5C560F00EAFDF3 /* RemindCell.m */; };
 		1DD8176F1E5C44C200C46B73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8176E1E5C44C200C46B73 /* main.m */; };
 		1DD817721E5C44C200C46B73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD817711E5C44C200C46B73 /* AppDelegate.m */; };
 		1DD817751E5C44C200C46B73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD817741E5C44C200C46B73 /* ViewController.m */; };
@@ -54,6 +60,19 @@
 		1D584F801E5C47D600EAFDF3 /* WBTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTableViewDataSource.m; sourceTree = "<group>"; };
 		1D584F811E5C47D600EAFDF3 /* WBTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBTableViewDelegate.h; sourceTree = "<group>"; };
 		1D584F821E5C47D600EAFDF3 /* WBTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTableViewDelegate.m; sourceTree = "<group>"; };
+		1D584F891E5C488400EAFDF3 /* MagnetsCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagnetsCellTableViewCell.h; sourceTree = "<group>"; };
+		1D584F8A1E5C488400EAFDF3 /* MagnetsCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagnetsCellTableViewCell.m; sourceTree = "<group>"; };
+		1D584F8C1E5C48BB00EAFDF3 /* movieModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movieModel.h; sourceTree = "<group>"; };
+		1D584F8D1E5C48BB00EAFDF3 /* movieModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = movieModel.m; sourceTree = "<group>"; };
+		1D584F8F1E5C48D600EAFDF3 /* sideModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sideModel.h; sourceTree = "<group>"; };
+		1D584F901E5C48D600EAFDF3 /* sideModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sideModel.m; sourceTree = "<group>"; };
+		1D584F961E5C53B700EAFDF3 /* MagneticSearch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagneticSearch.pch; sourceTree = "<group>"; };
+		1D584F971E5C540800EAFDF3 /* magnetXAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magnetXAPI.h; sourceTree = "<group>"; };
+		1D584F981E5C543400EAFDF3 /* breakDownHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = breakDownHtml.h; sourceTree = "<group>"; };
+		1D584F991E5C543400EAFDF3 /* breakDownHtml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = breakDownHtml.m; sourceTree = "<group>"; };
+		1D584F9B1E5C54AA00EAFDF3 /* rule.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rule.json; sourceTree = "<group>"; };
+		1D584F9D1E5C560F00EAFDF3 /* RemindCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemindCell.h; sourceTree = "<group>"; };
+		1D584F9E1E5C560F00EAFDF3 /* RemindCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemindCell.m; sourceTree = "<group>"; };
 		1DD8176A1E5C44C200C46B73 /* MagneticSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagneticSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD8176E1E5C44C200C46B73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1DD817701E5C44C200C46B73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -162,6 +181,16 @@
 				1DD817791E5C44C200C46B73 /* Assets.xcassets */,
 				1DD8177B1E5C44C200C46B73 /* LaunchScreen.storyboard */,
 				1DD8177E1E5C44C200C46B73 /* Info.plist */,
+				1D584F9D1E5C560F00EAFDF3 /* RemindCell.h */,
+				1D584F9E1E5C560F00EAFDF3 /* RemindCell.m */,
+				1D584F8F1E5C48D600EAFDF3 /* sideModel.h */,
+				1D584F901E5C48D600EAFDF3 /* sideModel.m */,
+				1D584F8C1E5C48BB00EAFDF3 /* movieModel.h */,
+				1D584F8D1E5C48BB00EAFDF3 /* movieModel.m */,
+				1D584F891E5C488400EAFDF3 /* MagnetsCellTableViewCell.h */,
+				1D584F8A1E5C488400EAFDF3 /* MagnetsCellTableViewCell.m */,
+				1D584F981E5C543400EAFDF3 /* breakDownHtml.h */,
+				1D584F991E5C543400EAFDF3 /* breakDownHtml.m */,
 				1D584F761E5C47D600EAFDF3 /* PopMenuView */,
 				1DD8176D1E5C44C200C46B73 /* Supporting Files */,
 			);
@@ -171,7 +200,10 @@
 		1DD8176D1E5C44C200C46B73 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1D584F9B1E5C54AA00EAFDF3 /* rule.json */,
 				1DD8176E1E5C44C200C46B73 /* main.m */,
+				1D584F971E5C540800EAFDF3 /* magnetXAPI.h */,
+				1D584F961E5C53B700EAFDF3 /* MagneticSearch.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -315,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DD8177D1E5C44C200C46B73 /* LaunchScreen.storyboard in Resources */,
+				1D584F9C1E5C54AA00EAFDF3 /* rule.json in Resources */,
 				1DD8177A1E5C44C200C46B73 /* Assets.xcassets in Resources */,
 				1DD817781E5C44C200C46B73 /* Main.storyboard in Resources */,
 			);
@@ -389,9 +422,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D584F9F1E5C560F00EAFDF3 /* RemindCell.m in Sources */,
 				1D584F851E5C47D600EAFDF3 /* WBPopMenuView.m in Sources */,
+				1D584F9A1E5C543400EAFDF3 /* breakDownHtml.m in Sources */,
 				1D584F871E5C47D600EAFDF3 /* WBTableViewDataSource.m in Sources */,
+				1D584F8E1E5C48BB00EAFDF3 /* movieModel.m in Sources */,
 				1D584F881E5C47D600EAFDF3 /* WBTableViewDelegate.m in Sources */,
+				1D584F911E5C48D600EAFDF3 /* sideModel.m in Sources */,
+				1D584F8B1E5C488400EAFDF3 /* MagnetsCellTableViewCell.m in Sources */,
 				1D584F861E5C47D600EAFDF3 /* WBTableViewCell.m in Sources */,
 				1DD817751E5C44C200C46B73 /* ViewController.m in Sources */,
 				1D584F841E5C47D600EAFDF3 /* WBPopMenuSingleton.m in Sources */,
@@ -470,6 +508,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -482,6 +521,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = MagneticSearch/MagneticSearch.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -518,6 +558,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -528,6 +569,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = MagneticSearch/MagneticSearch.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
