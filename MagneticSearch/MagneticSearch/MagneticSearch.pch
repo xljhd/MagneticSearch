@@ -16,7 +16,7 @@
 #import "movieModel.h"
 #import "AFHTTPSessionManager.h"
 #import "SSZipArchive.h"
-#import "breakDownHtml.h"
+#import "LoadingDownHtml.h"
 #import <UIView+SDAutoLayout.h>
 #import <MBProgressHUD.h>
 #import <MJRefresh.h>

@@ -19,7 +19,7 @@
 		1D584F8B1E5C488400EAFDF3 /* MagnetsCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D584F8A1E5C488400EAFDF3 /* MagnetsCellTableViewCell.m */; };
 		1D584F8E1E5C48BB00EAFDF3 /* movieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D584F8D1E5C48BB00EAFDF3 /* movieModel.m */; };
 		1D584F911E5C48D600EAFDF3 /* sideModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D584F901E5C48D600EAFDF3 /* sideModel.m */; };
-		1D584F9A1E5C543400EAFDF3 /* breakDownHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D584F991E5C543400EAFDF3 /* breakDownHtml.m */; };
+		1D584F9A1E5C543400EAFDF3 /* LoadingDownHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D584F991E5C543400EAFDF3 /* LoadingDownHtml.m */; };
 		1D584F9C1E5C54AA00EAFDF3 /* rule.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D584F9B1E5C54AA00EAFDF3 /* rule.json */; };
 		1D584F9F1E5C560F00EAFDF3 /* RemindCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D584F9E1E5C560F00EAFDF3 /* RemindCell.m */; };
 		1D584FA11E5C5A1900EAFDF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D584FA01E5C5A1900EAFDF3 /* Images.xcassets */; };
@@ -75,8 +75,8 @@
 		1D584F901E5C48D600EAFDF3 /* sideModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sideModel.m; sourceTree = "<group>"; };
 		1D584F961E5C53B700EAFDF3 /* MagneticSearch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagneticSearch.pch; sourceTree = "<group>"; };
 		1D584F971E5C540800EAFDF3 /* magnetXAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magnetXAPI.h; sourceTree = "<group>"; };
-		1D584F981E5C543400EAFDF3 /* breakDownHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = breakDownHtml.h; sourceTree = "<group>"; };
-		1D584F991E5C543400EAFDF3 /* breakDownHtml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = breakDownHtml.m; sourceTree = "<group>"; };
+		1D584F981E5C543400EAFDF3 /* LoadingDownHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingDownHtml.h; sourceTree = "<group>"; };
+		1D584F991E5C543400EAFDF3 /* LoadingDownHtml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingDownHtml.m; sourceTree = "<group>"; };
 		1D584F9B1E5C54AA00EAFDF3 /* rule.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rule.json; sourceTree = "<group>"; };
 		1D584F9D1E5C560F00EAFDF3 /* RemindCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemindCell.h; sourceTree = "<group>"; };
 		1D584F9E1E5C560F00EAFDF3 /* RemindCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemindCell.m; sourceTree = "<group>"; };
@@ -208,8 +208,8 @@
 				1D584F8D1E5C48BB00EAFDF3 /* movieModel.m */,
 				1D584F891E5C488400EAFDF3 /* MagnetsCellTableViewCell.h */,
 				1D584F8A1E5C488400EAFDF3 /* MagnetsCellTableViewCell.m */,
-				1D584F981E5C543400EAFDF3 /* breakDownHtml.h */,
-				1D584F991E5C543400EAFDF3 /* breakDownHtml.m */,
+				1D584F981E5C543400EAFDF3 /* LoadingDownHtml.h */,
+				1D584F991E5C543400EAFDF3 /* LoadingDownHtml.m */,
 				1D584F761E5C47D600EAFDF3 /* PopMenuView */,
 				1D584FA01E5C5A1900EAFDF3 /* Images.xcassets */,
 				1DD8176D1E5C44C200C46B73 /* Supporting Files */,
@@ -448,7 +448,7 @@
 			files = (
 				1D584F9F1E5C560F00EAFDF3 /* RemindCell.m in Sources */,
 				1D584F851E5C47D600EAFDF3 /* WBPopMenuView.m in Sources */,
-				1D584F9A1E5C543400EAFDF3 /* breakDownHtml.m in Sources */,
+				1D584F9A1E5C543400EAFDF3 /* LoadingDownHtml.m in Sources */,
 				1D584F871E5C47D600EAFDF3 /* WBTableViewDataSource.m in Sources */,
 				1D584F8E1E5C48BB00EAFDF3 /* movieModel.m in Sources */,
 				1D584F881E5C47D600EAFDF3 /* WBTableViewDelegate.m in Sources */,

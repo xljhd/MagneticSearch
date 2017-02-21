@@ -6,16 +6,16 @@
 //  Copyright © 2016年 728599123@qq.com. All rights reserved.
 //
 
-#import "breakDownHtml.h"
+#import "LoadingDownHtml.h"
 #import "Ono.h"
 #import "movieModel.h"
 #import "AFHTTPSessionManager.h"
-@implementation breakDownHtml
-+ (breakDownHtml *)downloader{
-    static breakDownHtml *downloader = nil;
+@implementation LoadingDownHtml
++ (LoadingDownHtml *)downloader{
+    static LoadingDownHtml *downloader = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        downloader = [[breakDownHtml alloc] init];
+        downloader = [[LoadingDownHtml alloc] init];
     });
     return downloader;
 }

@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 extern sideModel *selectSideRule;
 
-@interface breakDownHtml : NSObject
-+ (breakDownHtml *)downloader;
+@interface LoadingDownHtml : NSObject
++ (LoadingDownHtml *)downloader;
 - (void)downloadHtmlURLString:(NSString *)urlString willStartBlock:(void(^)()) startBlock success:(void(^)(NSData*data)) successHandler failure:(void(^)(NSError *error)) failureHandler;
 
 @end
