@@ -248,7 +248,7 @@ typedef NS_ENUM(NSInteger, RequestType) {
     if (searchBar.text.length > 0) {
         self.movieName= searchBar.text;
         self.maskView.hidden = YES;
-        self.hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+        self.hud = [MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];
         self.hud.labelText = NSLocalizedString(@"拼命加载中...", @"HUD loading title");
         [self changeKeywordPage:0 type:RequestTypeSwitch];
         [self.searchBar resignFirstResponder];
@@ -398,7 +398,7 @@ typedef NS_ENUM(NSInteger, RequestType) {
 - (void)config{
     self.magnets = [NSMutableArray new];
     
-    self.hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    self.hud = [MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];
     self.hud.labelText = NSLocalizedString(@"拼命加载中...", @"HUD loading title");
     [self setupSearchText];
 }
