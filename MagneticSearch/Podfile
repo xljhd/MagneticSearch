@@ -1,0 +1,12 @@
+platform :ios, '8.0'
+target 'MagneticSearch' do
+pod 'AFNetworking'
+pod 'Ono'
+pod 'SSZipArchive'
+pod 'Mantle', '~> 2.0'
+pod 'MBProgressHUD', '~> 0.9.1'
+pod 'MJRefresh', '~> 3.0.7'
+pod 'SDAutoLayout', '~> 2.1.4'
+
+end
+

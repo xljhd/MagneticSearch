@@ -15,6 +15,7 @@
 		1DD8177D1E5C44C200C46B73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD8177B1E5C44C200C46B73 /* LaunchScreen.storyboard */; };
 		1DD817881E5C44C200C46B73 /* MagneticSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD817871E5C44C200C46B73 /* MagneticSearchTests.m */; };
 		1DD817931E5C44C200C46B73 /* MagneticSearchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD817921E5C44C200C46B73 /* MagneticSearchUITests.m */; };
+		AD4FAD5E58CD8A183AE01CDD /* libPods-MagneticSearch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A889E9E2BF6F97D7F198C0C5 /* libPods-MagneticSearch.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		1DD8178E1E5C44C200C46B73 /* MagneticSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagneticSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD817921E5C44C200C46B73 /* MagneticSearchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagneticSearchUITests.m; sourceTree = "<group>"; };
 		1DD817941E5C44C200C46B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E1333D9AE7FB01890D2034D /* Pods-MagneticSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagneticSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagneticSearch/Pods-MagneticSearch.release.xcconfig"; sourceTree = "<group>"; };
+		8DAE2D78A0F53AA771FD4C8D /* Pods-MagneticSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagneticSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagneticSearch/Pods-MagneticSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		A889E9E2BF6F97D7F198C0C5 /* libPods-MagneticSearch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MagneticSearch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD4FAD5E58CD8A183AE01CDD /* libPods-MagneticSearch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BAC9204415DAB79960BBACF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DAE2D78A0F53AA771FD4C8D /* Pods-MagneticSearch.debug.xcconfig */,
+				4E1333D9AE7FB01890D2034D /* Pods-MagneticSearch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1DD817611E5C44C200C46B73 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +99,8 @@
 				1DD817861E5C44C200C46B73 /* MagneticSearchTests */,
 				1DD817911E5C44C200C46B73 /* MagneticSearchUITests */,
 				1DD8176B1E5C44C200C46B73 /* Products */,
+				0BAC9204415DAB79960BBACF /* Pods */,
+				E157D17FF08FA56BCD89439A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +156,14 @@
 			path = MagneticSearchUITests;
 			sourceTree = "<group>";
 		};
+		E157D17FF08FA56BCD89439A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A889E9E2BF6F97D7F198C0C5 /* libPods-MagneticSearch.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DD817971E5C44C200C46B73 /* Build configuration list for PBXNativeTarget "MagneticSearch" */;
 			buildPhases = (
+				54E14EE194B228BF5BB55CA8 /* [CP] Check Pods Manifest.lock */,
 				1DD817661E5C44C200C46B73 /* Sources */,
 				1DD817671E5C44C200C46B73 /* Frameworks */,
 				1DD817681E5C44C200C46B73 /* Resources */,
+				5080CEA883CA7438C1458400 /* [CP] Embed Pods Frameworks */,
+				95FD7F16968B7B6DC3515413 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +297,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5080CEA883CA7438C1458400 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagneticSearch/Pods-MagneticSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54E14EE194B228BF5BB55CA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95FD7F16968B7B6DC3515413 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagneticSearch/Pods-MagneticSearch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1DD817661E5C44C200C46B73 /* Sources */ = {
@@ -425,6 +500,7 @@
 		};
 		1DD817981E5C44C200C46B73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DAE2D78A0F53AA771FD4C8D /* Pods-MagneticSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8B6Z895XST;
@@ -437,6 +513,7 @@
 		};
 		1DD817991E5C44C200C46B73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E1333D9AE7FB01890D2034D /* Pods-MagneticSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8B6Z895XST;

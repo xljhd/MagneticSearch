@@ -1,0 +1,46 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.0.8)
+  - Ono (1.2.2)
+  - SDAutoLayout (2.1.7)
+  - SSZipArchive (1.6.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Mantle (~> 2.0)
+  - MBProgressHUD (~> 0.9.1)
+  - MJRefresh (~> 3.0.7)
+  - Ono
+  - SDAutoLayout (~> 2.1.4)
+  - SSZipArchive
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: fafde8f18f4afd66b434331a9beb67a6c0264056
+  Ono: 80b1c686777d3f6d5d5ce6fcac8a74afef4ca197
+  SDAutoLayout: e9b36d04b8c0b504762a04d76fbbe5108944297a
+  SSZipArchive: 428eb1ac8d37dd133404d30f422b23958c1f9acc
+
+PODFILE CHECKSUM: f196ebf9be579b7b3034b9aaf2f05d76058be01a
+
+COCOAPODS: 1.2.0.beta.1
