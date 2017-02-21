@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D584F831E5C47D600EAFDF3 /* WBPopMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D584F781E5C47D600EAFDF3 /* WBPopMenuModel.m */; };
+		1D584F841E5C47D600EAFDF3 /* WBPopMenuSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D584F7A1E5C47D600EAFDF3 /* WBPopMenuSingleton.m */; };
+		1D584F851E5C47D600EAFDF3 /* WBPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D584F7C1E5C47D600EAFDF3 /* WBPopMenuView.m */; };
+		1D584F861E5C47D600EAFDF3 /* WBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D584F7E1E5C47D600EAFDF3 /* WBTableViewCell.m */; };
+		1D584F871E5C47D600EAFDF3 /* WBTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D584F801E5C47D600EAFDF3 /* WBTableViewDataSource.m */; };
+		1D584F881E5C47D600EAFDF3 /* WBTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D584F821E5C47D600EAFDF3 /* WBTableViewDelegate.m */; };
 		1DD8176F1E5C44C200C46B73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8176E1E5C44C200C46B73 /* main.m */; };
 		1DD817721E5C44C200C46B73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD817711E5C44C200C46B73 /* AppDelegate.m */; };
 		1DD817751E5C44C200C46B73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD817741E5C44C200C46B73 /* ViewController.m */; };
@@ -36,6 +42,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D584F771E5C47D600EAFDF3 /* WBPopMenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBPopMenuModel.h; sourceTree = "<group>"; };
+		1D584F781E5C47D600EAFDF3 /* WBPopMenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBPopMenuModel.m; sourceTree = "<group>"; };
+		1D584F791E5C47D600EAFDF3 /* WBPopMenuSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBPopMenuSingleton.h; sourceTree = "<group>"; };
+		1D584F7A1E5C47D600EAFDF3 /* WBPopMenuSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBPopMenuSingleton.m; sourceTree = "<group>"; };
+		1D584F7B1E5C47D600EAFDF3 /* WBPopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBPopMenuView.h; sourceTree = "<group>"; };
+		1D584F7C1E5C47D600EAFDF3 /* WBPopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBPopMenuView.m; sourceTree = "<group>"; };
+		1D584F7D1E5C47D600EAFDF3 /* WBTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBTableViewCell.h; sourceTree = "<group>"; };
+		1D584F7E1E5C47D600EAFDF3 /* WBTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTableViewCell.m; sourceTree = "<group>"; };
+		1D584F7F1E5C47D600EAFDF3 /* WBTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBTableViewDataSource.h; sourceTree = "<group>"; };
+		1D584F801E5C47D600EAFDF3 /* WBTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTableViewDataSource.m; sourceTree = "<group>"; };
+		1D584F811E5C47D600EAFDF3 /* WBTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBTableViewDelegate.h; sourceTree = "<group>"; };
+		1D584F821E5C47D600EAFDF3 /* WBTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTableViewDelegate.m; sourceTree = "<group>"; };
 		1DD8176A1E5C44C200C46B73 /* MagneticSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagneticSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD8176E1E5C44C200C46B73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1DD817701E5C44C200C46B73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,6 +110,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		1D584F761E5C47D600EAFDF3 /* PopMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				1D584F771E5C47D600EAFDF3 /* WBPopMenuModel.h */,
+				1D584F781E5C47D600EAFDF3 /* WBPopMenuModel.m */,
+				1D584F791E5C47D600EAFDF3 /* WBPopMenuSingleton.h */,
+				1D584F7A1E5C47D600EAFDF3 /* WBPopMenuSingleton.m */,
+				1D584F7B1E5C47D600EAFDF3 /* WBPopMenuView.h */,
+				1D584F7C1E5C47D600EAFDF3 /* WBPopMenuView.m */,
+				1D584F7D1E5C47D600EAFDF3 /* WBTableViewCell.h */,
+				1D584F7E1E5C47D600EAFDF3 /* WBTableViewCell.m */,
+				1D584F7F1E5C47D600EAFDF3 /* WBTableViewDataSource.h */,
+				1D584F801E5C47D600EAFDF3 /* WBTableViewDataSource.m */,
+				1D584F811E5C47D600EAFDF3 /* WBTableViewDelegate.h */,
+				1D584F821E5C47D600EAFDF3 /* WBTableViewDelegate.m */,
+			);
+			path = PopMenuView;
+			sourceTree = "<group>";
+		};
 		1DD817611E5C44C200C46B73 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +162,7 @@
 				1DD817791E5C44C200C46B73 /* Assets.xcassets */,
 				1DD8177B1E5C44C200C46B73 /* LaunchScreen.storyboard */,
 				1DD8177E1E5C44C200C46B73 /* Info.plist */,
+				1D584F761E5C47D600EAFDF3 /* PopMenuView */,
 				1DD8176D1E5C44C200C46B73 /* Supporting Files */,
 			);
 			path = MagneticSearch;
@@ -351,7 +389,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D584F851E5C47D600EAFDF3 /* WBPopMenuView.m in Sources */,
+				1D584F871E5C47D600EAFDF3 /* WBTableViewDataSource.m in Sources */,
+				1D584F881E5C47D600EAFDF3 /* WBTableViewDelegate.m in Sources */,
+				1D584F861E5C47D600EAFDF3 /* WBTableViewCell.m in Sources */,
 				1DD817751E5C44C200C46B73 /* ViewController.m in Sources */,
+				1D584F841E5C47D600EAFDF3 /* WBPopMenuSingleton.m in Sources */,
+				1D584F831E5C47D600EAFDF3 /* WBPopMenuModel.m in Sources */,
 				1DD817721E5C44C200C46B73 /* AppDelegate.m in Sources */,
 				1DD8176F1E5C44C200C46B73 /* main.m in Sources */,
 			);
@@ -593,6 +637,7 @@
 				1DD817991E5C44C200C46B73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DD8179A1E5C44C200C46B73 /* Build configuration list for PBXNativeTarget "MagneticSearchTests" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +646,7 @@
 				1DD8179C1E5C44C200C46B73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DD8179D1E5C44C200C46B73 /* Build configuration list for PBXNativeTarget "MagneticSearchUITests" */ = {
 			isa = XCConfigurationList;
@@ -609,6 +655,7 @@
 				1DD8179F1E5C44C200C46B73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
